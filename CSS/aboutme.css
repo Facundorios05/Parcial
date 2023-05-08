@@ -35,3 +35,8 @@ main img {
     border-radius: 200px;
     border: solid black 3px
 }
+
+footer {
+    display: flex;
+    justify-content: start;
+}

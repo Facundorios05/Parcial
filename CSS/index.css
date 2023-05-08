@@ -22,12 +22,6 @@ body {
     color: black;
 }
 
-#vector:hover{
-    transition: 0.1s;
-    width: 100px;
-
-}
-
 main {
     display: flex;
     color: aliceblue;
@@ -42,4 +36,10 @@ main {
 main img {
     border-radius: 200px;
     border: solid rgb(255, 255, 255) 3px
+}
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: start;
 }
