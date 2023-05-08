@@ -1,8 +1,9 @@
 body {
-    background-color: gray;
+    background-color: rgb(214, 214, 214);
 }
+
 .nav {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -10,14 +11,21 @@ body {
 
 .nav-link {
     font-size: 25px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.nav-link:hover {
+    background-color: white;
+    transition: 0.1s;
+    font-size: 30px;
+    color: black;
+}
 
-.nav-link img:hover {
-    transition: 2;
-    width:150px;
+#vector:hover{
+    transition: 0.1s;
+    width: 100px;
+
 }
 
 
@@ -33,4 +41,21 @@ footer {
     display: flex;
     justify-content: end;
     color: rgb(255, 255, 255);
+}
+
+.row, .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img:hover {
+    transition: 0.1;
+    width: 160px;
+}
+
+.container-text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

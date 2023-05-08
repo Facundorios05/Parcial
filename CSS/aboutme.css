@@ -1,6 +1,10 @@
 body {
     background-color: white;
 }
+nav {
+    padding:0px;
+    margin: 0px;
+}
 .nav {
     background-color: rgb(100, 100, 100);
     display: flex;
@@ -20,6 +24,13 @@ body {
     font-size: 30px;
     color: rgb(238, 238, 238);
 }
+
+#vector:hover{
+    transition: 0.1s;
+    width: 100px;
+
+}
+
 
 main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
