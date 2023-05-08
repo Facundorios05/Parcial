@@ -11,7 +11,7 @@ body {
 
 .nav-link {
     font-size: 25px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -27,7 +27,6 @@ body {
     width: 100px;
 
 }
-
 
 main {
     display: flex;

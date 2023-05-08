@@ -28,7 +28,6 @@ body {
 
 }
 
-
 main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 50px;
@@ -51,11 +50,16 @@ footer {
 
 img:hover {
     transition: 0.1;
-    width: 160px;
+    width: 120px;
 }
 
 .container-text-center {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.skills {
+    display: flex;
+flex-direction: column;
 }
