@@ -17,21 +17,20 @@ body {
 }
 
 .nav-link:hover {
-    background-color: rgb(122, 122, 122);
     transform: scale(1.2);
+    background-color: rgb(122, 122, 122);
     color: rgb(255, 255, 255);
 }
 
-
 main {
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 250px;
-    margin-right: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 main img {
@@ -43,10 +42,18 @@ main img:hover {
 }
 
 footer h1 {
-    display: flex;
-    justify-content: end;
-    align-items: end;
     float: left;
-    color: rgb(197, 197, 197);
+    color: white;
     font-size: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+    main {
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
