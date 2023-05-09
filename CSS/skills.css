@@ -1,23 +1,25 @@
 body {
-    background-color: gray;
+    background-color: rgb(214, 214, 214);
 }
+
 .nav {
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .nav-link {
+    transition: 0.1s;
     font-size: 25px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-.nav-link img:hover {
-    transition: 2;
-    width:150px;
+.nav-link:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
 }
 
 
@@ -29,8 +31,35 @@ main {
     align-items: center;
 }
 
-footer {
+.row,
+.col {
     display: flex;
-    justify-content: end;
-    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    transition: 0.1s;
+}
+
+main img:hover {
+    transform: scale(1.2);
+}
+
+
+.container-text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h1 {
+    float: left;
+    color: white;
+    font-size: 10px;
 }
