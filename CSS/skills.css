@@ -64,6 +64,16 @@ main img:hover {
     text-align: center;
 }
 
+footer {
+    height: 75px;
+    background-color: rgb(214, 214, 214);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 10px;
+}
+
 @media screen and (max-width: 1080px) {
     .content {
         display: flex;
