@@ -1,57 +1,77 @@
 body {
-    background-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .nav {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .nav-link {
-    transition: 0.1s;
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 0.1s;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .nav-link:hover {
-    transform: scale(1.2);
-    background-color: rgb(122, 122, 122);
-    color: rgb(255, 255, 255);
+  transform: scale(1.2);
+  background-color: rgb(122, 122, 122);
+  color: rgb(255, 255, 255);
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aliceblue;
 }
 
 main img {
-    transition: 0.1s;
+  transition: 0.1s;
 }
 
 main img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  text-align: center;
 }
 
-@media screen and (max-width: 1080px) {
-    .content {
-        display: flex;
-        align-items: center;
-        color: aliceblue;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        width: 100%;
-    }
+footer {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+@media (max-width: 1080px) {
+  .content {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 100%;
+  }
+}
+/*este estilo aplica al main y empuja todo lo que este debajo lo mas abajo posible*/
+.empujador {
+  height: 85vh;
+}
+
+@media (max-width: 768px) {
+  .empujador {
+    height: auto;
+  }
 }
